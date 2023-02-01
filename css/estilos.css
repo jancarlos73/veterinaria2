@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../imagenes/huesos.jpg);
+   
+   
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+
+.cabecera{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    
+   
+   
+   
+}
+
+header{
+    display: flex;
+    height: 80%;
+    
+   
+}
+
+.div-contenedor-logo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.logo-img{
+    opacity: 0.9;
+}
+
+.tex-menu{
+    border-right: 2px white solid;
+}
+.title{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+
+.t-1{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    
+    height: 2rem;
+}
+.t-2{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    height: 2rem;
+    font-family:sans-serif;
+
+}
+
+.t-3{
+    width: 70%;
+    display: flex;
+    justify-content:flex-end;
+    font-family:sans-serif;
+
+}
+
+.logo{
+    height: 90%;
+    width: 50%;
+    
+    
+
+}
+
+nav{
+    display: flex;
+    height: 20%;
+    
+    background-color: #006951;
+   
+
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    
+
+}
+
+
+
+a{ 
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.cuerpo{
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: white;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+   
+    
+    
+    
+}
+
+.article1{
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    
+    border-radius: 20px;
+    margin-top: 1rem  ;
+    background-color:#fffec2 ;
+
+}
+
+.header-article{
+    height: 20%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.section-article{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.tex-article{
+    width: 60%;
+   
+}
+
+.foto-article{
+    margin: 0 1rem ;
+    
+    width: 40%;
+    border-radius: 20px;
+
+}
+
+.footer-article{
+    background-color:#fffec2 ;
+    border-radius: 20px;
+    color: #006951;
+    align-items: flex-start;
+}
+
+.article2{
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+   
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin: top 1rem  bottom 1rem ;
+    background-color:#fffec2 ;
+    
+    
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+aside{
+    display: flex;
+    
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+    
+}
+
+
+.div-conteiner-formulario{
+    
+    display: flex;
+    flex-direction: column;
+    height: 92%;
+    width: 95%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #89bc97;
+}
+
+.header-aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #27362b;
+    
+}
+
+.titulo-aside{
+    
+    color: white;
+}
+.cuerpo-aside{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    
+    
+    
+}
+
+.casilla-form{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.h3-input{
+    width: 20%;
+}
+
+input{
+    width: 50%;
+}
+
+
+.footer-aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #89bc97;
+    color: black;
+    border-radius: 0px 0px 20px 20px;
+    height: 10%;
+    
+
+    
+    
+}
+
+.h4-validar{
+    color: black;
+}
+
+.validar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width:  8rem;
+    color: black;
+    background-color: white;
+
+}
+
+
+
+footer{
+    display: flex;
+    height: 8%;
+    flex-direction: column;
+    
+    background-color: #006951;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+
+    
+}
